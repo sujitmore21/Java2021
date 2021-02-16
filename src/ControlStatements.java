@@ -102,7 +102,7 @@ public class ControlStatements {
         System.out.println(level);*/
 
         // Java Nested Switch Statement
-
+/*
         char branch = 'c';
         int collegeYear = 4;
         switch (collegeYear){
@@ -148,7 +148,7 @@ public class ControlStatements {
                         System.out.println("Drawing, Manufacturing Machines");
                         break;
                 }
-        }
+        }*/
 
     }
 }
