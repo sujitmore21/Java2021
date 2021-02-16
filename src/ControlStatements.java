@@ -49,7 +49,7 @@ public class ControlStatements {
 
         // Nested if Statement
 
-        int age = 25;
+       /* int age = 25;
         int weight = 51;
         // applying condition on age and weight
         if (age>=18){
@@ -60,6 +60,94 @@ public class ControlStatements {
             }
         }else {
             System.out.println("Age must be greater than 18");
+        }*/
+
+        // Java Switch Statement
+
+ /*       int number = 20;
+
+        switch (number){
+            case 10:
+                System.out.println("this number is available 10");
+                break;
+            case 30:
+                System.out.println("this number is available 30");
+                break;
+            case 20:
+                System.out.println("this number is available 20");
+                break;
+            default:
+                System.out.println("this given number is invalid");
+
+        }*/
+
+        // Java Switch Statement with String
+
+     /*   String levelstring = "Expert";
+                int level = 0;
+        switch (levelstring){
+            case "Beginner":
+                level = 1;
+                break;
+            case "Intermediate":
+                level = 2;
+                break;
+            case "Expert":
+                level=3;
+                break;
+            default:
+                level=0;
+                break;
+        }
+        System.out.println(level);*/
+
+        // Java Nested Switch Statement
+
+        char branch = 'c';
+        int collegeYear = 4;
+        switch (collegeYear){
+            case 1:
+                System.out.println("English, Maths, Science");
+                break;
+            case 2:
+                switch (branch)
+                {
+                    case 'c':
+                        System.out.println("Operating System, Java, Data Structure");
+                        break;
+                    case 'E':
+                        System.out.println("Micro processors, Logic switching theory");
+                        break;
+                    case 'M':
+                        System.out.println("Drawing, Manufacturing Machines");
+                        break;
+                }
+            case 3:
+                switch (branch)
+                {
+                    case 'c':
+                        System.out.println("Operating System, Java, Data Structure");
+                        break;
+                    case 'E':
+                        System.out.println("Micro processors, Logic switching theory");
+                        break;
+                    case 'M':
+                        System.out.println("Drawing, Manufacturing Machines");
+                        break;
+                }
+            case 4:
+                switch (branch)
+                {
+                    case 'c':
+                        System.out.println("Operating System, Java, Data Structure");
+                        break;
+                    case 'E':
+                        System.out.println("Micro processors, Logic switching theory");
+                        break;
+                    case 'M':
+                        System.out.println("Drawing, Manufacturing Machines");
+                        break;
+                }
         }
 
     }
