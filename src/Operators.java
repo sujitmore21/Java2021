@@ -44,7 +44,7 @@ public class Operators {
 
         // Java OR Operators Logical || and Bitwise |
 
-        int a=10;
+       /* int a=10;
         int b=5;
         int c=28;
 
@@ -52,10 +52,29 @@ public class Operators {
         System.out.println(a);
 
         System.out.println(a>b|a++<c);// true | true = true
-        System.out.println(a);
+        System.out.println(a);*/
 
+        // Java Relational Operator , < > <= >= == !=
 
+       /* int number = 10;
+        int number2 = 10;
 
+        System.out.println(number>number2);
+        System.out.println(number>=number2);*/
 
+//        String name = "rohan";
+//        String name2 = "rohan";
+
+        /*String name = new String("rohan");
+        String name2 = new String("rohan");
+
+        System.out.println(name==name2);
+        System.out.println(name.equals(name2));
+*/
+
+        int number = 10;
+        int number2 = 20;
+
+        System.out.println(number!=number2);
     }
 }
