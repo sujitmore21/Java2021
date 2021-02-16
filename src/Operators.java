@@ -72,9 +72,9 @@ public class Operators {
         System.out.println(name.equals(name2));
 */
 
-        int number = 10;
+      /*  int number = 10;
         int number2 = 20;
 
-        System.out.println(number!=number2);
+        System.out.println(number!=number2);*/
     }
 }
