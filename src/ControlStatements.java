@@ -36,7 +36,7 @@ public class ControlStatements {
         }*/
 
 
-        int number = -13;
+    /*    int number = -13;
         if (number>0){
             System.out.println("Positive");
         }
@@ -45,6 +45,21 @@ public class ControlStatements {
         }
         else {
             System.out.println("Zero");
+        }*/
+
+        // Nested if Statement
+
+        int age = 25;
+        int weight = 51;
+        // applying condition on age and weight
+        if (age>=18){
+            if (weight>50){
+                System.out.println("You are eligible to donate blood");
+            }else {
+                System.out.println("You are not eligible to donate blood");
+            }
+        }else {
+            System.out.println("Age must be greater than 18");
         }
 
     }
