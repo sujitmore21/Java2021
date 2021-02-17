@@ -149,8 +149,24 @@ public class javaString {
         // StringBuffer is less efficient than StringBuilder.
         // StringBuilder is more efficient than StringBuffer.
 
+   /*     StringBuilder ns = new StringBuilder("rohan");
+        System.out.println(ns);*/
 
+        // how to calculate time both
 
+        long starttime = System.currentTimeMillis();
+        StringBuffer sb = new StringBuffer("java");
+        for (int i = 0;i<=100000;i++){
+            sb.append("hello");
+        }
+        System.out.println("this taken to excute stringbuffer" +(System.currentTimeMillis()-starttime)+"ms");
+
+        starttime = System.currentTimeMillis();
+        StringBuilder sb2 = new StringBuilder("java");
+        for (int i = 0;i<=100000;i++){
+            sb2.append("hello");
+        }
+        System.out.println("this taken to excute stringbuilder" +(System.currentTimeMillis()-starttime)+"ms");
 
 
     }
