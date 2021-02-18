@@ -1,7 +1,9 @@
+package basicjava;
+
 public class Operators {
     public static void main(String[] args) {
 
-        //Unary Operators Example : ++ and --
+        //Unary basicjava.Operators Example : ++ and --
 /*
         int x=10;
         System.out.println(x++);//10(11)
@@ -9,7 +11,7 @@ public class Operators {
         System.out.println(x--);//12(11)
         System.out.println(--x);//10*/
 
-        //Unary Operators Example : ~ and !
+        //Unary basicjava.Operators Example : ~ and !
 
       /*  int a=10;
         int b=-10;
@@ -20,17 +22,17 @@ public class Operators {
         System.out.println(!c);//false
         System.out.println(!d);//true*/
 
-        // Java Left Shift Operators <<
+        // Java Left Shift basicjava.Operators <<
 
      /*   System.out.println(10<<2);//10*2^2-10*4=40
         System.out.println(18<<3);//18*2^3-18*8=144
 
-        // Java Right Shift Operators <<
+        // Java Right Shift basicjava.Operators <<
 
         System.out.println(10>>2);//10/2^2-10/4=2
         System.out.println(18>>3);//18/2^3-18/8=2
 */
-        // Java AND Operators Logical && and Bitwise &
+        // Java AND basicjava.Operators Logical && and Bitwise &
 
        /* int a=10;
         int b=5;
@@ -42,7 +44,7 @@ public class Operators {
         System.out.println(a<b&a++<c);
         System.out.println(a);*/
 
-        // Java OR Operators Logical || and Bitwise |
+        // Java OR basicjava.Operators Logical || and Bitwise |
 
        /* int a=10;
         int b=5;

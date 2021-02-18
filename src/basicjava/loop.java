@@ -1,10 +1,12 @@
+package basicjava;
+
 public class loop {
 
     public static void main(String[] args) {
 
         // Loops in java
 
-        // for loop
+        // for basicjava.loop
 
      /*   for (int i = 1; i<=10;i++){
            System.out.println(i);
@@ -12,7 +14,7 @@ public class loop {
 
         }*/
 
-        // Java Nested for loop
+        // Java Nested for basicjava.loop
         //*
         //* *
         //* * *
@@ -28,7 +30,7 @@ public class loop {
 
 
 
-        // Java for-each loop
+        // Java for-each basicjava.loop
 
    /*     int number[] = {1,2,3,44,5,6,77,8,9};
 
@@ -36,7 +38,7 @@ public class loop {
             System.out.println(i);
         }*/
 
-        // Java Infinitive for loop
+        // Java Infinitive for basicjava.loop
       /*  for (;;){
             System.out.println("rohan");
         }*/
@@ -50,13 +52,13 @@ public class loop {
             i++;
         }*/
 
-        // Java Infinitive while loop
+        // Java Infinitive while basicjava.loop
 
        /* while (true){
             System.out.println("hello");
         }*/
 
-        // Java do- while loop
+        // Java do- while basicjava.loop
 
        /* int i =1;
 
@@ -66,7 +68,7 @@ public class loop {
         }while (i<=10);
 */
 
-        // Java Infinitive do- while loop
+        // Java Infinitive do- while basicjava.loop
 
 /*        do {
             System.out.println("hello");
@@ -114,7 +116,7 @@ public class loop {
 
 
         int i=1;
-        //do while loop
+        //do while basicjava.loop
         do {
             if (i==5){
                 //using continue statement
