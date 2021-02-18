@@ -1,5 +1,7 @@
 package JavaCollections;
 
+import java.util.*;
+
 public class JavaArray {
     public static void main(String[] args) {
 
@@ -58,13 +60,101 @@ public class JavaArray {
 
         // Cloning an Array in Java
 
-        int arr[]={22,3,4,5};
+       /* int arr[]={22,3,4,5};
 
         int newarr[] = arr.clone();
         for (int i:newarr) {
             System.out.println(i);
 
-        }
+        }*/
+
+        // Java ArrayList
+
+        // Java ArrayList class user a dynamic array for storing the elements. It is like
+        // an array, but there is no size limit. We Can add or remove elements anytime. So,
+        // it is much more flexible then the traditional array.
+
+      /*  ArrayList<String> name = new ArrayList<String>();
+
+        name.add("rohan");
+        name.add("aatish");
+        name.add("golu");
+        name.add("rahul");
+        name.add("don");
+
+        ArrayList numbername = new ArrayList();
+        numbername.addAll(name);
+        numbername.add(20);
+        numbername.add(50);
+        numbername.add(260);
+        numbername.add(207);
+        numbername.add(20);
+
+        System.out.println(numbername);*/
+
+
+
+        /*  ArrayList<String> ns = new ArrayList<>();
+        ns.add("rahu");
+        ns.add("raman");
+
+        name.addAll(ns);
+        System.out.println(name);*/
+
+
+
+        /*  Collections.sort(name);
+        for (String i:name) {
+            System.out.println(i);
+
+        }*/
+
+        /* name.set(0,"manu");
+        System.out.println(name);*/
+
+       /* name.remove(0);
+        System.out.println(name);
+        System.out.println(name.size());*/
+
+      /*  String name2 = name.get(1);
+        System.out.println(name2);*/
+
+       /* for (String i: name) {
+            System.out.println(i);
+        }*/
+
+      /*  Iterator itr = name.iterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }*/
+
+       // System.out.println(name);
+
+
+        // Java LinkedList
+
+        // Java LinkedList class user a doubly linked list to store the elements.
+
+   /*     LinkedList<String> al = new LinkedList<String>();
+        al.add("rohan");
+        al.add("rakesh");
+        al.add("sharma");
+        al.add("varma");
+        al.add("karna");
+        al.add("dharma");*/
+
+     /*   String name = al.get(1);
+        System.out.println(name);*/
+
+        //System.out.println(al);
+
+        LinkedList news = new LinkedList();
+        news.add("rihan");
+        news.add(10);
+        news.add(19.0);
+        news.add(true);
+
+        System.out.println(news);
 
     }
 }
