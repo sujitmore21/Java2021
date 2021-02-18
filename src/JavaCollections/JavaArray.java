@@ -34,7 +34,7 @@ public class JavaArray {
         */
 
         // Multidimensional java Array
-
+/*
         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
         for (int i=0;i<3;i++){
             for (int j=0;j<3;j++){
@@ -42,6 +42,28 @@ public class JavaArray {
 
             }
             System.out.println();
+        }*/
+
+        // Copying an Array in Java
+
+      /*  char[] copyFrom = {'a','s','d','f','g','h','j','k','l'};
+
+        char[] copyTo = new char[5];
+        System.arraycopy(copyFrom,0,copyTo,0,5);
+
+        for (char i:copyTo) {
+            System.out.println(i);
+        }
+        //System.out.println(String.valueOf(copyTo));*/
+
+        // Cloning an Array in Java
+
+        int arr[]={22,3,4,5};
+
+        int newarr[] = arr.clone();
+        for (int i:newarr) {
+            System.out.println(i);
+
         }
 
     }
