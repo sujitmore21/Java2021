@@ -148,13 +148,44 @@ public class JavaArray {
 
         //System.out.println(al);
 
-        LinkedList news = new LinkedList();
+      /*  LinkedList news = new LinkedList();
         news.add("rihan");
         news.add(10);
         news.add(19.0);
         news.add(true);
 
-        System.out.println(news);
+        System.out.println(news);*/
+
+        // Java List Interface
+
+       /* List<String> name = new ArrayList<>();
+        name.add("rohan");
+        name.add("rohan");
+        name.add("rohan");
+        name.add("rohan");*/
+
+      /*  System.out.println(name);
+        name.add(4,"golu");*/
+
+      /*  System.out.println(name.contains("rohan"));
+        System.out.println(name.indexOf("rohan"));*/
+
+      /*  List name = new ArrayList<>();
+        name.add("rohan");
+        name.add(12);
+        name.add(12.33);
+        name.add(12.3);
+        name.add(true);
+
+        System.out.println(name);*/
+
+        String[] name = {"rohan","roshan","mohan"};
+
+        List<String> name2 = new ArrayList<>();
+        for (String i:name) {
+            name2.add(i);
+        }
+        System.out.println(name2);
 
     }
 }
