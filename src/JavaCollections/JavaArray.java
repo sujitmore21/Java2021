@@ -245,7 +245,7 @@ public class JavaArray {
         ns.add(152);
         ns.add(1276);*/
 
-        TreeSet<String> ns = new TreeSet<String>();
+      /*  TreeSet<String> ns = new TreeSet<String>();
 
         ns.add("rohan");
         ns.add("nilesh");
@@ -255,12 +255,26 @@ public class JavaArray {
         Iterator itr = ns.descendingIterator();
         while (itr.hasNext()){
             System.out.println(itr.next());
-        }
+        }*/
 
        /* int number = ns.pollFirst();
         System.out.println(number);*/
 
 
+        // Java Queue Interface
+
+        Queue<Integer> ns = new LinkedList<Integer>();
+        ns.add(5);
+        ns.add(54);
+        ns.add(53);
+        ns.add(523);
+        ns.add(5123);
+        ns.add(50);
+
+        System.out.println(ns.size());
+        System.out.println(ns);
+        ns.remove();
+        System.out.println(ns);
 
     }
 }
