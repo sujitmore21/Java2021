@@ -179,13 +179,34 @@ public class JavaArray {
 
         System.out.println(name);*/
 
-        String[] name = {"rohan","roshan","mohan"};
+       /* String[] name = {"rohan","roshan","mohan"};
 
         List<String> name2 = new ArrayList<>();
         for (String i:name) {
             name2.add(i);
         }
-        System.out.println(name2);
+        System.out.println(name2);*/
+
+        // Java HashSet
+
+        HashSet<String> ns = new HashSet<String>();
+        ns.add("rohan");
+        ns.add("rajesh");
+        ns.add("raju");
+        ns.add("nilesh");
+
+
+        HashSet<String> nss = new HashSet<String>();
+        nss.add("Sam");
+        nss.add("ram");
+        nss.add("om");
+
+        ns.addAll(nss);
+       // ns.remove("rajesh");
+        System.out.println(ns);
+
+        //System.out.println(ns);
+
 
     }
 }
