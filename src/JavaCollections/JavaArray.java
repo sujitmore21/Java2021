@@ -189,7 +189,7 @@ public class JavaArray {
 
         // Java HashSet
 
-        HashSet<String> ns = new HashSet<String>();
+      /*  HashSet<String> ns = new HashSet<String>();
         ns.add("rohan");
         ns.add("rajesh");
         ns.add("raju");
@@ -204,6 +204,25 @@ public class JavaArray {
         ns.addAll(nss);
        // ns.remove("rajesh");
         System.out.println(ns);
+
+        //System.out.println(ns);*/
+
+        // Java LinkedHashSet class
+
+        LinkedHashSet ns = new LinkedHashSet();
+        ns.add("rohan");
+        ns.add(23);
+        ns.add(10.5f);
+        ns.add(123456);
+        ns.add(12.5344);
+        ns.add(true);
+
+        Iterator irt = ns.iterator();
+      //  System.out.println(irt.next());
+
+        while (irt.hasNext()){
+            System.out.println(irt.next());
+        }
 
         //System.out.println(ns);
 
