@@ -208,7 +208,7 @@ public class JavaArray {
         //System.out.println(ns);*/
 
         // Java LinkedHashSet class
-
+/*
         LinkedHashSet ns = new LinkedHashSet();
         ns.add("rohan");
         ns.add(23);
@@ -224,7 +224,42 @@ public class JavaArray {
             System.out.println(irt.next());
         }
 
-        //System.out.println(ns);
+        //System.out.println(ns);*/
+
+        // Java TreeSet class
+
+       /* TreeSet<String> ns = new TreeSet<>();
+
+        ns.add("rohan");
+        ns.add("nilesh");
+        ns.add("soman");
+        ns.add("salman");
+
+        System.out.println(ns);
+*/
+
+       /* TreeSet<Integer> ns = new TreeSet<Integer>();
+        ns.add(12);
+        ns.add(125);
+        ns.add(1442);
+        ns.add(152);
+        ns.add(1276);*/
+
+        TreeSet<String> ns = new TreeSet<String>();
+
+        ns.add("rohan");
+        ns.add("nilesh");
+        ns.add("soman");
+        ns.add("salman");
+
+        Iterator itr = ns.descendingIterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
+       /* int number = ns.pollFirst();
+        System.out.println(number);*/
+
 
 
     }
