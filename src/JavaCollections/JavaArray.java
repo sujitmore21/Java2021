@@ -308,8 +308,24 @@ public class JavaArray {
 
         }*/
 
-        map.putIfAbsent(4,"raju");
-        System.out.println(map);
+       /* map.putIfAbsent(4,"raju");
+        System.out.println(map);*/
+
+        // Java LinkedHashMap
+
+        LinkedHashMap<Integer,String> ns = new LinkedHashMap<>();
+
+        ns.put(100,"rohan");
+        ns.put(101,"tom");
+        ns.put(102,"shital");
+        ns.put(104,"monu");
+
+        System.out.println(ns);
+
+        ns.remove(104);
+        System.out.println(ns);
+
+        System.out.println(ns.entrySet());
 
     }
 }
