@@ -282,14 +282,34 @@ public class JavaArray {
         // A map contains values on the basis of key, i.e. key and value pair.
         // Each key and value pair is known as entry. A Map contains unique keys.
 
-        Map<Integer,String> ns = new HashMap<>();
+      /*  Map<Integer,String> ns = new HashMap<>();
         ns.put(1,"rohan");
         ns.put(2,"roshan");
         ns.put(3,"rajesh");
         ns.put(4,"don");
         System.out.println(ns);
 
+        for (Map.Entry nss: ns.entrySet()) {
+            System.out.println("Your roll number and name"+nss.getKey()+" = "+nss.getValue());
 
+        }*/
+
+        // Java HashMap
+
+        HashMap<Integer,String> map = new HashMap<>();
+        map.put(1,"rohan");
+        map.put(2,"raja");
+        map.put(3,"tushar");
+
+      /*  System.out.println(map);
+        for (Map.Entry nss:map.entrySet()) {
+            System.out.println(nss.getKey()+" "+nss.getValue());
+
+
+        }*/
+
+        map.putIfAbsent(4,"raju");
+        System.out.println(map);
 
     }
 }
