@@ -263,7 +263,7 @@ public class JavaArray {
 
         // Java Queue Interface
 
-        Queue<Integer> ns = new LinkedList<Integer>();
+       /* Queue<Integer> ns = new LinkedList<Integer>();
         ns.add(5);
         ns.add(54);
         ns.add(53);
@@ -274,7 +274,22 @@ public class JavaArray {
         System.out.println(ns.size());
         System.out.println(ns);
         ns.remove();
+        System.out.println(ns);*/
+
+
+        // Java Map Interface
+
+        // A map contains values on the basis of key, i.e. key and value pair.
+        // Each key and value pair is known as entry. A Map contains unique keys.
+
+        Map<Integer,String> ns = new HashMap<>();
+        ns.put(1,"rohan");
+        ns.put(2,"roshan");
+        ns.put(3,"rajesh");
+        ns.put(4,"don");
         System.out.println(ns);
+
+
 
     }
 }
