@@ -333,12 +333,26 @@ public class JavaArray {
 
    // Java EnumSet class
 
-        Set<days> set = EnumSet.of(days.MONDAY,days.FRIDAY);
+       /* Set<days> set = EnumSet.of(days.MONDAY,days.FRIDAY);
         System.out.println(set);
 
         Set<days> set2 = EnumSet.allOf(days.class);
-        System.out.println(set2);
+        System.out.println(set2);*/
 
+
+        // Java EnumMap
+
+        EnumMap<days,String> ns = new EnumMap<days, String>(days.class);
+        ns.put(days.MONDAY,"1");
+        ns.put(days.TUESDAY,"2");
+        ns.put(days.WEDNESDAY,"3");
+        ns.put(days.THURSDAY,"4");
+        ns.put(days.FRIDAY,"5");
+
+        for (Map.Entry nss: ns.entrySet()) {
+            System.out.println(nss.getKey()+" "+nss.getValue());
+
+        }
 
     }
 }
