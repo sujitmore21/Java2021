@@ -1,6 +1,9 @@
 package JavaCollections;
 
 import java.util.*;
+enum days{
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}
 
 public class JavaArray {
     public static void main(String[] args) {
@@ -296,10 +299,10 @@ public class JavaArray {
 
         // Java HashMap
 
-        HashMap<Integer,String> map = new HashMap<>();
+       /* HashMap<Integer,String> map = new HashMap<>();
         map.put(1,"rohan");
         map.put(2,"raja");
-        map.put(3,"tushar");
+        map.put(3,"tushar");*/
 
       /*  System.out.println(map);
         for (Map.Entry nss:map.entrySet()) {
@@ -313,7 +316,7 @@ public class JavaArray {
 
         // Java LinkedHashMap
 
-        LinkedHashMap<Integer,String> ns = new LinkedHashMap<>();
+      /*  LinkedHashMap<Integer,String> ns = new LinkedHashMap<>();
 
         ns.put(100,"rohan");
         ns.put(101,"tom");
@@ -325,7 +328,17 @@ public class JavaArray {
         ns.remove(104);
         System.out.println(ns);
 
-        System.out.println(ns.entrySet());
+        System.out.println(ns.entrySet());*/
+
+
+   // Java EnumSet class
+
+        Set<days> set = EnumSet.of(days.MONDAY,days.FRIDAY);
+        System.out.println(set);
+
+        Set<days> set2 = EnumSet.allOf(days.class);
+        System.out.println(set2);
+
 
     }
 }
