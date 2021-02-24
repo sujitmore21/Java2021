@@ -341,7 +341,7 @@ public class JavaArray {
 
 
         // Java EnumMap
-
+/*
         EnumMap<days,String> ns = new EnumMap<days, String>(days.class);
         ns.put(days.MONDAY,"1");
         ns.put(days.TUESDAY,"2");
@@ -352,7 +352,52 @@ public class JavaArray {
         for (Map.Entry nss: ns.entrySet()) {
             System.out.println(nss.getKey()+" "+nss.getValue());
 
-        }
+        }*/
+
+        // Java Stack
+
+        // It is based on last- in - first- out(LIFO)
+
+        Stack<Integer> ns = new Stack<>();
+        //System.out.println(ns.isEmpty());
+
+        ns.push(20);
+        ns.push(5);
+        ns.push(230);
+        ns.push(24);
+        System.out.println(ns);
+
+
+        ns.forEach(n->{
+            System.out.println(n);
+        });
+
+       /* System.out.println(ns.search(230));
+        System.out.println(ns.size());*/
+
+/*
+        int number = ns.peek();
+        System.out.println(number);*/
+
+    /*    ns.pop();
+        System.out.println(ns);
+        ns.pop();
+        System.out.println(ns);
+        ns.pop();
+        System.out.println(ns);
+        ns.pop();
+        System.out.println(ns);*/
+
+
+
+       /* String name = "Rohan";
+        String Name = "golu";
+
+        System.out.println(name);
+        System.out.println(Name);*/
+
+
+
 
     }
 }
