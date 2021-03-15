@@ -357,7 +357,7 @@ public class JavaArray {
         // Java Stack
 
         // It is based on last- in - first- out(LIFO)
-
+/*
         Stack<Integer> ns = new Stack<>();
         //System.out.println(ns.isEmpty());
 
@@ -370,7 +370,7 @@ public class JavaArray {
 
         ns.forEach(n->{
             System.out.println(n);
-        });
+        });*/
 
        /* System.out.println(ns.search(230));
         System.out.println(ns.size());*/
